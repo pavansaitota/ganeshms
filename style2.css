@@ -52,12 +52,6 @@ header nav ul li a {
     border-bottom: 2px solid rgb(235, 141, 18);
 }
 /*request*/
-.continer {
-  display:inline-block;
-  aligne-item:center;
-  width: 80%;
-  height: fit-content;
-  border-top: 2px solid rgb(3, 5, 8);
 .Request {
     display: flex;
     flex-wrap: wrap;
