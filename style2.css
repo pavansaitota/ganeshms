@@ -30,19 +30,13 @@ header {
 }
 
 header .logo {
-    display: flex;
-    width: 10%;
-    height: 10%;
-    image-resolution: 10px;
-    align-items: start;
-    image-orientation:from-image;
-    position: static;
-    padding: 20px 20px;
-    border-radius: 20%;
+    height: 50px;
+    width: 100px;
+    border-radius: 50%;
 }
 
 header nav ul li a {
-    color: #151a9b;
+    color: orange;
     margin: 5px 20px;
     font-size: 25px;
     padding: 20px 20px;
@@ -69,7 +63,11 @@ header nav ul li a {
 }
 
 .Request-body {
-    background-color: rgb(243, 187, 1);
+    background-image: linear-gradient(to bottom right, rgba(74, 74, 74, 0.097), rgba(85, 69, 69, 0.6)), url(background.png);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
     height: 100%;
     border-left: 2px orange;
 }
@@ -152,7 +150,7 @@ form .form-Request input:valid~span::before {
 }
 
 .footer {
-    background-color:orange;
+    background-image: linear-gradient(to bottom right, rgba(74, 74, 74, 0.097), rgba(85, 69, 69, 0.6)), url(background.png);
     border-top: 2px solid black;
 }
 
